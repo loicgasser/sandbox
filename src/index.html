@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pix4d planner</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, minimal-ui"/>
+    <meta charset="utf-8"/>
+    <link href="css/app.css" rel="stylesheet"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="pix-wrapper">
+      <div id="map"></div>
+      <div class="pix-panel panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><strong>Plan your next flight</strong></h3>
+        </div>
+        <div class="panel-body">
+          <h3><small>1. Create a new flight plan</small></h3>
+          <input id="file" type="file" class="pix-upload-flight"/>
+          <button type="button" class="pix-upload-flight-proxy btn btn-default">Select a local GeoJSON file</button>
+          <div class="pix-or">OR</div>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Enter a flight name...">
+            <span class="input-group-btn">
+              <button class="pix-new-plan btn btn-default" type="button">Create a new flight plan</button>
+            </span>
+          </div>
+          <hr>
+          <h3><small>2. Edit a flight plan</small></h3>
+          <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="pix-start-editing btn btn-default" disabled>Start Drawing</button>
+            <button type="button" class="pix-save-flight btn btn-default" disabled>Save flight</button>
+            <button type="button" class="pix-reset-flight btn btn-default" disabled>Reset Flight</button>
+          </div>
+          <hr>
+          <h3><small>Current flight plan</small></h3>
+          <table class="pix-current-flight table">
+            <tr>
+              <td>Name</td>
+              <td class="pix-plan-name">No data</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/FileSaver.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="js/map.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSMBpYJ1jXc2mB0dJ8HiKGXA7K1r4yZ_M&libraries=drawing">
+    </script>
+  </body>
+</html>

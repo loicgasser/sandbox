@@ -1,0 +1,18 @@
+{
+  "name": "pix4d-planner",
+  "version": "0.0.1",
+  "description": "Pix4d Planner",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pix4d-planner"
+  },
+  "author": "Loïc Gasser",
+  "readmeFileName": "README.md",
+  "dependencies": {
+    "jquery": "2.2.0",
+    "bootstrap": "3.3.6",
+    "filesaverjs": "0.2.2"
+  },
+  "devDependencies": {
+  }
+}
