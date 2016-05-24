@@ -142,7 +142,11 @@ app.init = function() {
         alert('Please enter a name for the new line.');
       }
     });
-
+    newPlanIpt.keypress(function(evt) {
+      if (evt.keyCode == '13') {
+        newPlanBtn.click();
+      }
+    });
     startBtn.click(function() {
       var el = $(this);
       $(el).toggleClass(toggleCls);
