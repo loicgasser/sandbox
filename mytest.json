@@ -1,0 +1,14 @@
+{
+  "type": "single",
+  "geomType": "point",
+  "vectorOptions": {
+    "type": "square",
+    "radius": 10,
+    "fill": {
+      "color": "red"
+    },
+    "stroke": {
+      "color": "red"
+    }
+  }
+}
