@@ -2,7 +2,7 @@
   "type": "single",
   "geomType": "point",
   "vectorOptions": {
-    "type": "square",
+    "type": "triangle",
     "radius": 10,
     "fill": {
       "color": "red"
