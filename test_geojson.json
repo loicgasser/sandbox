@@ -1,0 +1,44 @@
+{
+"crs": {
+"type": "name",
+"properties": {
+"name": "EPSG:21781" }
+},
+"mapname" : "ch.meteoschweiz.messdaten-niederschlag",
+"timestamp" : "03.01.2018 10:25",
+"type" : "FeatureCollection",
+"features" : [
+{ "type" : "Feature",
+"geometry" : {
+"type" : "Point",
+"coordinates" : [ 771030.21, 184825.85 ] },
+"id" : "ARO",
+"properties" : {
+"station_name" : "Arosa",
+"station_symbol" : 1,
+"value" : 0.0,
+"description" : "<table><tbody><tr><td><strong>Stationsname</strong></td><td>Arosa (ARO)</td></tr><tr><td><strong>Stationstyp</strong></td><td>Automatische Messstation MeteoSchweiz</td></tr><tr><td><strong>Niederschlag</strong></td><td>0.0 mm (03.01.2018 10:20)</td></tr><tr><td><strong>Höhe Messgerät</strong></td><td>1880.00 m</td></tr><tr><td><strong>Höhe über Boden</strong></td><td>2.00 m</td></tr></tbody></table>" }
+}
+,{ "type" : "Feature",
+"geometry" : {
+"type" : "Point",
+"coordinates" : [ 756907.40, 209340.82 ] },
+"id" : "RAG",
+"properties" : {
+"station_name" : "Bad Ragaz",
+"station_symbol" : 1,
+"value" : 0.0,
+"description" : "<table><tbody><tr><td><strong>Stationsname</strong></td><td>Bad Ragaz (RAG)</td></tr><tr><td><strong>Stationstyp</strong></td><td>Automatische Messstation MeteoSchweiz</td></tr><tr><td><strong>Niederschlag</strong></td><td>0.0 mm (03.01.2018 10:20)</td></tr><tr><td><strong>Höhe Messgerät</strong></td><td>497.50 m</td></tr><tr><td><strong>Höhe über Boden</strong></td><td>1.50 m</td></tr><tr><td><strong>Information</strong></td><td><a target=\"_blank\" href=\"http://www.meteoschweiz.admin.ch/product/input/smn-stations/docs/RAG.pdf\">Link zur Stationsseite</a></td></tr></tbody></table>" }
+}
+,{ "type" : "Feature",
+"geometry" : {
+"type" : "Point",
+"coordinates" : [ 719102.43, 279042.08 ] },
+"id" : "HAI",
+"properties" : {
+"station_name" : "Salen-Reutenen",
+"station_symbol" : 1,
+"value" : 0.4,
+"description" : "<table><tbody><tr><td><strong>Stationsname</strong></td><td>Salen-Reutenen (HAI)</td></tr><tr><td><strong>Stationstyp</strong></td><td>Automatische Messstation MeteoSchweiz</td></tr><tr><td><strong>Niederschlag</strong></td><td>0.4 mm (03.01.2018 10:10)</td></tr><tr><td><strong>Höhe Messgerät</strong></td><td>719.50 m</td></tr><tr><td><strong>Höhe über Boden</strong></td><td>1.50 m</td></tr><tr><td><strong>Information</strong></td><td><a target=\"_blank\" href=\"http://www.meteoschweiz.admin.ch/product/input/smn-stations/docs/HAI.pdf\">Link zur Stationsseite</a></td></tr></tbody></table>" }
+}]
+}
