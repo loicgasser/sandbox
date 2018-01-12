@@ -3,13 +3,7 @@
   "geomType": "point",
   "rotation": "rotation",
   "vectorOptions": {
-    "type": "triangle",
-    "radius": 10,
-    "fill": {
-      "color": "red"
-    },
-    "stroke": {
-      "color": "red"
-    }
+    "type": "icon",
+    "src": "https://api3.geo.admin.ch/color/0,128,0/airport-24@2x.png"
   }
 }
