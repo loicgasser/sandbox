@@ -1,9 +1,9 @@
 {
   "type": "single",
   "geomType": "point",
+  "rotation": "rotation",
   "vectorOptions": {
     "type": "triangle",
-    "rotation": 1.57,
     "radius": 10,
     "fill": {
       "color": "red"
