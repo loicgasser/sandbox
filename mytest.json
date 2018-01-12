@@ -1,7 +1,7 @@
 {
   "type": "single",
   "geomType": "point",
-  "rotation": "rotation",
+  "rotation": "station_symbol",
   "vectorOptions": {
     "type": "icon",
     "src": "https://api3.geo.admin.ch/color/0,128,0/airport-24@2x.png"
