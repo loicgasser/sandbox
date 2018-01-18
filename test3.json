@@ -6,20 +6,21 @@
     "type": "icon",
     "src": "https://raw.githubusercontent.com/loicgasser/sandbox/master/arrow.png",
     "label": {
-          "template": "${value} mm",
-          "text": {
-            "textAlign": "center",
-            "textBaseline": "middle",
-            "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
-            "scale": 1.25,
-            "offsetY": -38,
-            "stroke": {
-              "color": "yellow",
-              "width": 10
-            },
-            "fill": {
-              "color": "red"
-            }
+      "template": "${value} mm",
+      "text": {
+         "textAlign": "center",
+          "textBaseline": "middle",
+          "font": "bold 11px FrutigerNeueW02-Regular, Times, sans-serif",
+          "scale": 1.25,
+          "offsetY": -38,
+          "stroke": {
+            "color": "yellow",
+            "width": 10
+          },
+          "fill": {
+            "color": "red"
           }
+       }
+    }
   }
 }
