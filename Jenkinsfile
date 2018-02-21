@@ -5,6 +5,8 @@ node(label: "jenkins-slave") {
    try {
      stage("Checkout") {
        final scmVars = checkout scm
+        sh "echo Display a groovy variable ${deployGitBranch}" 
+        sh "echo Display an env variable \$BRANCH_NAME"
      }
      if (deployGitBranch == 'master') {
         stage("Publish") {
