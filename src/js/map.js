@@ -24,14 +24,14 @@ app.init = function() {
     });
   }
 
-  function toGeoJson(map) {
-    var geojson;
+  function toGeoJson(map, cb, filename) {
     map.data.toGeoJson(function(data) {
+      var geojson;
       if (data.features && data.features.length) {
         geojson = JSON.stringify(data, null, 2);
       }
+      cb(geojson, filename);
     });
-    return geojson;
   }
 
   function saveGeoJson(geojson, filename) {
@@ -160,7 +160,7 @@ app.init = function() {
     });
     saveBtn.click(function() {
       var filename = pixPlanTr.html();
-      saveGeoJson(toGeoJson(map), filename);
+      toGeoJson(map, saveGeoJson, filename);
     });
     resetBtn.click(function() {
       clearDrawing(map);

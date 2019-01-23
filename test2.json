@@ -1,9 +1,0 @@
-{
-  "type": "single",
-  "geomType": "point",
-  "rotation": "station_symbol",
-  "vectorOptions": {
-    "type": "icon",
-    "src": "https://raw.githubusercontent.com/loicgasser/sandbox/master/arrow.png"
-  }
-}

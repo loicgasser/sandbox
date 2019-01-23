@@ -5,7 +5,7 @@ help:
 	@echo
 	@echo "Possible targets:"
 	@echo
-	@echo "- all 			Build the app in the current environment"
+	@echo "- all      Build the app in the current environment"
 	@echo "- clean    Remove all generated build artefacts"
 
 .PHONY: all
